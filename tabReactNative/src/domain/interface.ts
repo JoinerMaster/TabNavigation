@@ -1,12 +1,12 @@
 interface User {
     id: string,
-    nombre: string,
+    nombre: string
 }
 
 interface Telefono {
     id: string,
     id_user: number,
-    marca_celular: string,
+    marca: string,
     modelo: string,
     sistema: string,
     procesador: string,
@@ -15,5 +15,5 @@ interface Telefono {
 
 interface Estado {
     id: string,
-    name: string
+    nombre: string
 }
